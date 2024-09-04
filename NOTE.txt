@@ -1,0 +1,2 @@
+use npm run dev to run frontend
+activate virtual_env before running the backend
