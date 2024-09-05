@@ -55,7 +55,7 @@ export default class CreateRoomPage extends Component {
             }
             return response.json();
         })
-        .then((data) => console.log(data))
+        .then((data) => this.props.history.push('/room/' + data.code))
         .catch((error) => console.error('There was a problem with the fetch operation:', error));
 }
 
