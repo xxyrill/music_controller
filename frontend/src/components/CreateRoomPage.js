@@ -69,7 +69,7 @@ export default class CreateRoomPage extends Component {
                 </Grid>
                 <Grid item xs={12} align="center">
                     <FormControl component='fieldset'>
-                        <FormHelperText align="center">
+                        <FormHelperText style={{ textAlign: 'center' }}>
                             <span align="center">
                                 Guest Control of Playback State
                             </span>
